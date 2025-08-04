@@ -37,6 +37,16 @@ header h1 {
   text-shadow: 1px 1px #210bb6;
 }
 
+.nav-home {
+  color: #4b0082;
+  font-weight: bold;
+  background-color: #ffe4ec;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #ff69b4;
+}
+
+
 
 nav ul {
   list-style: none;
