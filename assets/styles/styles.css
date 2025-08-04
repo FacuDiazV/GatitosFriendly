@@ -38,12 +38,13 @@ header h1 {
 }
 
 .nav-home {
-  color: #4b0082;
+  color: #210bb6;
   font-weight: bold;
   background-color: #ffe4ec;
   padding: 10px 20px;
   border-radius: 20px;
-  border: 2px solid #ff69b4;
+  border: 2px solid #ffffff;
+  text-decoration: none;
 }
 
 
