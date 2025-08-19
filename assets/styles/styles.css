@@ -2,11 +2,11 @@ header {
   background: #230ca6;
   color: #fff;
   padding: 20px;
-  border-bottom: 4px solid #4423d7;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 header .header-container {
   display: flex;
@@ -24,7 +24,7 @@ header .header-container {
 header img {
   width: 120px;
   border-radius: 50%;
-  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   margin-bottom: 10px;
 }
 header h1 {
@@ -40,8 +40,8 @@ header h1 {
   background: #ffe4ec;
   padding: 10px 20px;
   border-radius: 20px;
-  border: 2px solid #fff;
   text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -56,8 +56,8 @@ nav ul li {
   background: #fff;
   border-radius: 20px;
   padding: 10px 20px;
-  border: 2px solid #4423d7;
   transition: background 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 nav ul li:hover {
   background: #ffe4ec;

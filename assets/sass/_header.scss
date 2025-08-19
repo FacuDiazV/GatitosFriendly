@@ -2,11 +2,11 @@ header {
   background: $color-primario;
   color: $color-blanco;
   padding: 20px;
-  border-bottom: 4px solid $color-secundario;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  box-shadow: $sombra-caja;
 
   .header-container {
     display: flex;
@@ -24,7 +24,7 @@ header {
   img {
     width: 120px;
     border-radius: 50%;
-    box-shadow: 0 0 10px $color-blanco;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     margin-bottom: 10px;
   }
 
@@ -42,8 +42,8 @@ header {
   background: $color-acento;
   padding: 10px 20px;
   border-radius: 20px;
-  border: 2px solid $color-blanco;
   text-decoration: none;
+  box-shadow: $sombra-caja;
 }
 
 nav ul {
@@ -58,8 +58,8 @@ nav ul {
     background: $color-blanco;
     border-radius: 20px;
     padding: 10px 20px;
-    border: 2px solid $color-secundario;
     transition: background 0.3s ease;
+    box-shadow: $sombra-caja;
 
     &:hover {
       background: $color-acento;
