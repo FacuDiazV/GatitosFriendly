@@ -7,6 +7,7 @@ header {
   align-items: center;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
 }
 header .header-container {
   display: flex;
@@ -68,6 +69,28 @@ nav ul li a {
   font-weight: bold;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+header img {
+  animation: pulse 4s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
 footer {
   background: #4423d7;
   color: #fff;
