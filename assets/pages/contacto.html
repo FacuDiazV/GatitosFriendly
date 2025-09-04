@@ -1,68 +1,67 @@
 <!DOCTYPE html>
 <html lang="es-ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto | GatitosFriendly 🐾</title>
-    <meta name="description" content="Contacta con GatitosFriendly para consultas, adopciones de gatitos o información sobre nuestra tienda.">
-    <meta name="keywords" content="contacto, gatitos, adopción de gatos, tienda de gatos">
-    <link rel="icon" href="../img/gatitos.jpg" type="image/png">
-    <link rel="stylesheet" href="../styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | GatitosFriendly 🐾</title>
+  <meta name="description" content="Contacta con GatitosFriendly para consultas, adopciones de gatitos o información sobre nuestra tienda." />
+  <meta name="keywords" content="contacto, gatitos, adopción de gatos, tienda de gatos" />
+  <link rel="icon" href="../img/gatitos.jpg" type="image/png" />
+  <link rel="stylesheet" href="../styles/styles.css" />
 </head>
-
 <body>
-    <header>
+  <header>
+    <h1>Contacto para adoptar un gato</h1>
+    <nav>
+      <ul>
         <li><a href="../../index.html" class="nav-home">Home</a></li>
-       
-        <h1>Contacto para adoptar un gato</h1>
-        <nav>
-          <ul>
-                 <li><a href="./galeria.html">Galería</a></li>
-                 <li><a href="./contacto.html">Contacto</a></li>
-                 <li><a href="./tienda.html">Tienda</a></li>
-                 <li><a href="./sobre_nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="./galeria.html">Galería</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./tienda.html">Tienda</a></li>
+        <li><a href="./sobre_nosotros.html">Sobre Nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            </ul>
-        </nav>
-   
-    </header>
-    <main>
-        <main class="contacto">
-            <div class="contacto-imagen">
-                <img src="../img/gato.jpg" alt="Gatito curioso" title="Contáctanos para adoptar un gatito">
-            </div>
-            
-            <div class="contacto-texto">
-                <p>¿Tenés dudas sobre el proceso de adopción? ¿Querés colaborar con nuestro refugio o consultar sobre nuestros productos? ¡Estamos para ayudarte!</p>
-                <p>Puedes escribirnos completando el siguiente formulario o también encontrarnos en nuestras redes sociales. Nuestro equipo responderá todas tus consultas a la brevedad.</p>
-            </div>
-            
-            <div class="contacto-form">
-                <form>
-                    <label>Nombre</label>
-                    <input type="text">
-                    <br>
-                    <label>Edad</label>
-                    <input type="number">
-                    <br>
-                    <label>Correo</label>
-                    <input type="email">
-                    <br>
-                    <label>Deja tu comentario</label>
-                    <textarea></textarea>
-                    <br>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Resetear">
-                </form>
-            
-            <div class="contacto-datos">
-                <p><strong>Horario de atención:</strong> Lunes a Sábado, de 9:00 a 18:00 hs.</p>
-                <p><strong>Email:</strong> contacto@gatitosfriendly.com</p>
-            </div>
+  <main class="contacto">
+    <section class="contacto-imagen">
+      <img src="../img/gato.jpg" alt="Gatito curioso" title="Contáctanos para adoptar un gatito" />
+    </section>
+
+    <section class="contacto-texto">
+      <p>¿Tenés dudas sobre el proceso de adopción? ¿Querés colaborar con nuestro refugio o consultar sobre nuestros productos? ¡Estamos para ayudarte!</p>
+      <p>Podés escribirnos completando el siguiente formulario o también encontrarnos en nuestras redes sociales. Nuestro equipo responderá todas tus consultas a la brevedad.</p>
+    </section>
+
+    <section class="contacto-form">
+      <form>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" required />
+
+        <label for="edad">Edad</label>
+        <input id="edad" name="edad" type="number" min="0" />
+
+        <label for="correo">Correo</label>
+        <input id="correo" name="correo" type="email" required />
+
+        <label for="comentario">Deja tu comentario</label>
+        <textarea id="comentario" name="comentario"></textarea>
+
+        <div class="botones">
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Resetear" />
         </div>
-    </main>
-<footer>
-    <H2>Derechos Reservados</H2>
-</footer>
+      </form>
+
+      <div class="contacto-datos">
+        <p><strong>Horario de atención:</strong> Lunes a Sábado, de 9:00 a 18:00 hs.</p>
+        <p><strong>Email:</strong> contacto@gatitosfriendly.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Derechos Reservados</h2>
+  </footer>
 </body>
 </html>
