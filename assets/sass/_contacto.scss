@@ -55,33 +55,3 @@ main {
   align-items: start;
   padding: 20px;
 }
-
-main img {
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-main form {
-  background: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-main p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-  main {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  main form {
-    margin: 0 auto;
-    width: 90%;
-  }
-}
